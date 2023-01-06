@@ -1,0 +1,23 @@
+_id: req_38571c8cce454b7a98e0c303b25a1b41
+type: Request
+parentId: fld_3d7a587cabf44b7aab2c9e72c276f436
+modified: 1672813559162
+created: 1672811108625
+url: "{{ _.baseUrl }}/api/advertisements/crud/v1/document-mstrs"
+name: Document Masters
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672811108625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

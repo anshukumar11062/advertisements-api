@@ -1,0 +1,170 @@
+_id: req_9137ce87d1b44923895d589d22c9d99d
+type: Request
+parentId: fld_2b8e63e4deab47d88621dc5fe5052d86
+modified: 1672643367213
+created: 1672635689772
+url: "{{ _.baseUrl }}/api/advertisement/private-land/save"
+name: Apply
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: applicant
+      value: John Doe
+      id: pair_7533f033d65c49b29d7defc3515bfc12
+    - id: pair_2959b79af16d49db90ec98e369abfdcd
+      name: father
+      value: John Father
+      description: ""
+    - id: pair_1a2e45cc33e54fc9a6218eeec7c5a3f3
+      name: email
+      value: john@gmail.com
+      description: ""
+    - id: pair_9fdff284faa34a29b31868856586a781
+      name: residenceAddress
+      value: Madhukam
+      description: ""
+    - id: pair_3a94e55d9a7447379b19d805023db297
+      name: wardId
+      value: "4"
+      description: ""
+    - id: pair_9ab33fa350b04bd6b959eb128a1a6b1d
+      name: permanentAddress
+      value: Ratu Road
+      description: ""
+    - id: pair_ceb567a095d14e5fb0d659471f055046
+      name: permanentWardId
+      value: "2"
+      description: ""
+    - id: pair_7bc1bc1e6af0403cb821be02383e721e
+      name: mobileNo
+      value: "0123456789"
+      description: ""
+    - id: pair_e37448f745584777ac1e5398f0bb04ac
+      name: aadharNo
+      value: "123456789012"
+      description: ""
+    - id: pair_71b84dcf3a9143be954b0f4971433b88
+      name: licenseFrom
+      value: 2023-01-01
+      description: ""
+    - id: pair_182f3cb6ee7b4891ad0dc45638536829
+      name: licenseTo
+      value: 2024-01-01
+      description: ""
+    - id: pair_c3de2ae8c2ed4bf48615bd1d2747eb9c
+      name: holdingNo
+      value: "6543645"
+      description: ""
+    - id: pair_517324f3ef2845ebbf4f089cf6d9aabb
+      name: tradeLicenseNo
+      value: 514a2dsfj
+      description: ""
+    - id: pair_349d2da3cfa74347a5446d8f9486ded3
+      name: gstNo
+      value: "2136584"
+      description: ""
+    - id: pair_a9ad453e8c4c4a9187451d58a8aa3ed7
+      name: entityName
+      value: Vendor Market
+      description: ""
+    - id: pair_29560d396e144ed98d5de33954a62767
+      name: entityAddress
+      value: Shastri Chowk
+      description: ""
+    - id: pair_af1f979295234e26b127c82582cafa2f
+      name: brandDisplayName
+      value: Hoarding
+      description: ""
+    - id: pair_5705faddc3914d5e885c8317b14cc723
+      name: brandDisplayAddress
+      value: Ratu Road
+      description: ""
+    - id: pair_063301ba431e41ff9c45eb833641f244
+      name: brandDisplayHoldingNo
+      value: "1234536789"
+      description: ""
+    - id: pair_d9f4d8e330274ae9b3f4223eb25a4a1f
+      name: entityWardId
+      value: "2"
+      description: ""
+    - id: pair_2c58016e8eac44b5b0f04a73afd64eab
+      name: displayArea
+      value: "321"
+      description: ""
+    - id: pair_934ec6e95f054bb5aca8ddcc47356190
+      name: displayType
+      value: "2"
+      description: ""
+    - id: pair_c5d41783cd724deea6025501a2231dc8
+      name: noOfHoardings
+      value: "321"
+      description: ""
+    - id: pair_366044d7408042e6b3798b44b35fd86d
+      name: longitude
+      value: "23.6521"
+      description: ""
+    - id: pair_5ea9bb76e92347a0aafc6daff8f581d3
+      name: latitude
+      value: "65.3212"
+      description: ""
+    - id: pair_65dc65c8f53f4b1b8b14ae64c655ef06
+      name: installationLocation
+      value: Ranchi
+      description: ""
+    - id: pair_507f73ba047d4d7aa31fb240c01d7480
+      name: ulbId
+      value: "1"
+      description: ""
+    - id: pair_35cbc351f1ba4b25a353509f4da0656e
+      name: aadharDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Documents\Municipal Corporation.pdf
+    - id: pair_728bdedd6ef3426ea7e2325cfb0b4291
+      name: tradeDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\property-module.png
+    - id: pair_30d82307d0064964a58f66c3fce43059
+      name: gpsDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Downloads\notice (1).pdf
+    - id: pair_ccd9b6094492477799b0597926bca2f3
+      name: holdingDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\documentVerification.png
+    - id: pair_af476198c8414706adfd47cc8a8d0fb3
+      name: gstDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\property-module.png
+    - id: pair_bc400401c7ed40e8ba5591ee4d169b52
+      name: brandDisplayDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\Screenshot 2022-11-15 161358.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672635689772
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

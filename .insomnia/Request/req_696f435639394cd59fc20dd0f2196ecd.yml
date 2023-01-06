@@ -1,0 +1,166 @@
+_id: req_696f435639394cd59fc20dd0f2196ecd
+type: Request
+parentId: fld_0a2a23718d4648b5bed9f7115c70f0d9
+modified: 1672635477172
+created: 1672475438835
+url: 127.0.0.1:8001/api/advertisement/movable-vehicle/save
+name: Apply
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_053f13ebbf66430685e5ca0a84ec5bfb
+      name: applicant
+      value: John Doe
+      description: ""
+    - id: pair_6675f69f6a0f4ddf974e17ba7f42b3a6
+      name: father
+      value: Cena
+      description: ""
+    - id: pair_ddeedbe1454b430faed97857d13a6c72
+      name: email
+      value: john@gmail.com
+      description: ""
+    - id: pair_bcea5de9b2224451898b1cf30d79c74f
+      name: residenceAddress
+      value: Madukam
+      description: ""
+    - id: pair_891e275ba07843838dcd26267d5446f7
+      name: wardId
+      value: "1"
+      description: ""
+    - id: pair_21670df48b85410fa20231d8dd741d44
+      name: permanentAddress
+      value: Something
+      description: ""
+      disabled: false
+    - id: pair_97f5978fa97347cab28d8860ab623683
+      name: permanentWardId
+      value: "1"
+      description: ""
+    - id: pair_57a073e323584ed8807dc2c570365347
+      name: mobile
+      value: "0123456789"
+      description: ""
+    - id: pair_cc91761e058c4b18b58ba12ff75a9909
+      name: aadharNo
+      value: "123456789123"
+      description: ""
+    - id: pair_e07dc72a47f34d6cb56c47c91ef88527
+      name: licenseFrom
+      value: 2022-01-01
+      description: ""
+    - id: pair_9b77b119129c4775904469ae82358a8a
+      name: licenseTo
+      value: 2023-01-01
+      description: ""
+    - id: pair_f18e12043cc44d3484f265ace3a88cf5
+      name: entityName
+      value: Johnn
+      description: ""
+    - id: pair_ea8ad4d79d574c339c4e14e50f02739c
+      name: tradeLicenseNo
+      value: "21352549"
+      description: ""
+    - id: pair_7767a119421140ef940422888afe6798
+      name: gstNo
+      value: "365165820"
+      description: ""
+    - id: pair_f491cf9b24b24423bf06f7eedf49b187
+      name: vehicleNo
+      value: 521dsaf
+      description: ""
+    - id: pair_904871036b0749caafdd6b1ccfd3571b
+      name: vehicleType
+      value: "2"
+      description: ""
+    - id: pair_a8651c9e08374b3ba366307df6b2b4e0
+      name: brandDisplayed
+      value: Thar
+      description: ""
+    - id: pair_ab4b89a8285340e4be431965eacbe70a
+      name: frontArea
+      value: "100"
+      description: ""
+    - id: pair_a97720fc8c5247aa94138c8106196fc8
+      name: rearArea
+      value: "200"
+      description: ""
+    - id: pair_8d1f34dbd8f14acdab5c873d98ed3dcd
+      name: sideArea
+      value: "120"
+      description: ""
+    - id: pair_de04ebe97e2041528c67a1773d62416b
+      name: topArea
+      value: "100"
+      description: ""
+    - id: pair_1eeb711028ed4294b6c643a66fe64de3
+      name: displayType
+      value: "3"
+      description: ""
+    - id: pair_fcba72a66eca4faab97d2fd224362a65
+      name: aadharDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Downloads\Get_Started_With_Smallpdf.pdf
+    - id: pair_063a359c955f4993a3cd73bed148e314
+      name: tradeDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Downloads\notice.pdf
+    - id: pair_d1717b894d5b4dbabf2e83fa2098b84f
+      name: vehiclePhotoDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Downloads\PrepBootstrapPDF.pdf
+    - id: pair_473ba625cfe54340a0c5f88c596bb572
+      name: ownerBookDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\property-module.png
+    - id: pair_c6060ce2472f42a395791494e27a645f
+      name: drivingLicenseDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\Screenshot 2022-11-24 171418.png
+    - id: pair_f309c0148f4548e0b033f9c83904d89c
+      name: insuranceDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\property-module.png
+    - id: pair_57a1a17ba13b4c7facdbb6f931866e46
+      name: gstDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\Screenshot 2022-11-15 161414.png
+    - id: pair_2d670b82346c42f6bc0cceda96b347e7
+      name: ulbId
+      value: "1"
+      description: ""
+    - id: pair_1fadbffb8cf94d82811fb813b8ab69ec
+      name: vehicleName
+      value: Vehicle Name
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672475438835
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

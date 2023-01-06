@@ -1,0 +1,163 @@
+_id: req_996ff1374bc749f78d1f29bbfeddaddc
+type: Request
+parentId: fld_f603217785834df0a972865c2adc3b98
+modified: 1672661418961
+created: 1672646775842
+url: "{{ _.baseUrl }}/api/advertisements/agency/save"
+name: Apply
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_2b0fb84b4ffe4831b66b182efeae359a
+      name: entityType
+      value: "1"
+      description: ""
+    - id: pair_dca367d6146142e7a898e8c114810dc5
+      name: entityName
+      value: Prashant
+      description: ""
+    - id: pair_04f930964acc45e1b18ac664527534e4
+      name: address
+      value: Bhuiya Toli
+      description: ""
+    - id: pair_3490ead2b22c4c3599fb885de247394c
+      name: mobileNo
+      value: "0123456789"
+      description: ""
+    - id: pair_7a62f8866aaa43409d7cb487a29351dd
+      name: officeTelephone
+      value: "6354878956"
+      description: ""
+    - id: pair_f44886106f734b4487c3b0d8d6ae40e7
+      name: fax
+      value: "230352"
+      description: ""
+    - id: pair_60bac1f9c5bf4a9792511374c91637a0
+      name: email
+      value: prasant@gmail.com
+      description: ""
+    - id: pair_3326917e71974d9facd3afd024eaede3
+      name: panNo
+      value: 25698KLKDG
+      description: ""
+    - id: pair_8c2e910b433c49188268cdddc954f3ed
+      name: gstNo
+      value: LKASDK5645
+      description: ""
+    - id: pair_029616398e4a41b0b0e6ca1a7f8e40b0
+      name: blacklisted
+      value: "1"
+      description: ""
+    - id: pair_92e95b8f54144351ac1c21c3f5546841
+      name: pendingCourtCase
+      value: "1"
+      description: ""
+    - id: pair_050978ede8a447beb8058b982c9a445b
+      name: pendingAmount
+      value: "100"
+      description: ""
+    - id: pair_cccd229374e8498bb2c934c99284e7d3
+      name: directors[0][name]
+      value: Anshu
+      description: ""
+    - id: pair_23f917c3a2174302b3f1e199cbb66eda
+      name: directors[1][name]
+      value: Avinash
+      description: ""
+    - id: pair_4e980b0f38704156b3d335a8cf80276d
+      name: directors[0][mobile]
+      value: "1234567890"
+      description: ""
+    - id: pair_f2cb2a99da86497394f1963b32eaf311
+      name: directors[1][mobile]
+      value: "1234567890"
+      description: ""
+    - id: pair_525366e9639c42b38c2877d7033ae706
+      name: directors[0][email]
+      value: 1@gmail.com
+      description: ""
+    - id: pair_6aabbd3d80534974b5ca08df31a688cd
+      name: directors[1][email]
+      value: 2@gmail.com
+      description: ""
+    - id: pair_969b4db290474bc1bd5f510d6674bda7
+      name: gstDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\documentVerification.png
+    - id: pair_1512d1ae645b441f838e0250dba123ac
+      name: itReturnDoc1
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\property-module.png
+    - id: pair_5a73307f8e664942a2cbc84a91902cbb
+      name: itReturnDoc2
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\Screenshot 2022-11-24 171418.png
+    - id: pair_8634dc1e9844426bb1d0415dc3a1c2c0
+      name: officeAddressDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\Screenshot 2022-11-15 161414.png
+    - id: pair_fbbfd1a573d144b9845747fa0440b1a3
+      name: panDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\documentVerification.png
+    - id: pair_860411b5eb0146f6b4f0771f7b3855fd
+      name: director1AadharDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Downloads\Get_Started_With_Smallpdf.pdf
+    - id: pair_0c624c8dbc5a4725b7ae370430972dfc
+      name: director2AadharDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Downloads\New Doc 2022-12-07 14.18.08.pdf
+    - id: pair_a9f25fbc9928422b8d1f87fd91ad8cd8
+      name: director3AadharDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Downloads\New Doc 2022-12-07 14.25.52.pdf
+    - id: pair_5cbb75b3920d4eefb3d74f25e29573cd
+      name: director4AadharDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Downloads\New Doc 2022-12-07 14.17.38.pdf
+    - id: pair_f4ea5344a1854380b1a591baf281a0df
+      name: affidivitDoc
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Downloads\PrepBootstrapPDF.pdf
+    - id: pair_6c227fc4d0e340d68b9626f6c2688319
+      name: ulbId
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672646775842
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

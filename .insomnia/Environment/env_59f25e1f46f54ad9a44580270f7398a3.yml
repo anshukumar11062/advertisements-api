@@ -1,0 +1,16 @@
+_id: env_59f25e1f46f54ad9a44580270f7398a3
+type: Environment
+parentId: env_c266ef92294b2b3e6727aee98f68abe32f383801
+modified: 1672980559715
+created: 1672379426216
+name: .env
+data:
+  bearer: 4682|3kRaOsjycs2Tq8AvBaqYadoS9YTViksIFBz0RPI1
+  baseUrl: 127.0.0.1:8001
+dataPropertyOrder:
+  "&":
+    - bearer
+    - baseUrl
+color: null
+isPrivate: false
+metaSortKey: 1672379426216

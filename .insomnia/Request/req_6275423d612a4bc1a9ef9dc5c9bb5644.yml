@@ -1,0 +1,30 @@
+_id: req_6275423d612a4bc1a9ef9dc5c9bb5644
+type: Request
+parentId: fld_3d7a587cabf44b7aab2c9e72c276f436
+modified: 1672811100097
+created: 1671001774893
+url: 127.0.0.1:8001/api/crud/param-strings
+name: Param Strings
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ulbId":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1671001774893
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
