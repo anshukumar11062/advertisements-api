@@ -1,0 +1,31 @@
+_id: req_e18c70f6076247f0942d83cc4cdaaa05
+type: Request
+parentId: fld_24c3b1a28a3a411ba0b3aecb6bd78126
+modified: 1673009087242
+created: 1673008485858
+url: "{{ _.baseUrl }}/api/advertisement/self-advert/details"
+name: details by id
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+  disabled: false
+metaSortKey: -1671000057946.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,143 @@
+_id: req_c9932d1f5b6f4c75a1943910312dbea5
+type: Request
+parentId: fld_24c3b1a28a3a411ba0b3aecb6bd78126
+modified: 1673002684689
+created: 1672998968892
+url: 127.0.0.1:8001/api/advertisement/self-advert/edit
+name: Edit Application
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_8935c5d520a7458f927e2bed29c620c2
+      name: applicantName
+      value: Samueles
+      description: ""
+    - id: pair_ee981453af5942c3b6788b1c00df14f0
+      name: licenseYear
+      value: "3"
+      description: ""
+    - id: pair_4100274a4a51481db3f35e4e5fa9495f
+      name: fatherName
+      value: Sergio
+      description: ""
+    - id: pair_493830c7e8c344fabd7c77951b802237
+      name: email
+      value: sergio@gmail.com
+      description: ""
+    - id: pair_638e293c9ba04e6b99f70f2b0cf01314
+      name: residenceAddress
+      value: Madhukam
+      description: ""
+    - id: pair_78b0e8bdc30846ea9c872901d83cab59
+      name: wardId
+      value: "5"
+      description: ""
+    - id: pair_be96b8373cb24ee88a2b024879b74aaf
+      name: permanentAddress
+      value: asdf
+      description: ""
+    - id: pair_65739d2cde404ababad5ac787ef78e3d
+      name: permanentWardId
+      value: "5"
+      description: ""
+    - id: pair_006e7212665747cda29c421bfc3f2bdc
+      name: entityName
+      value: Vendor Market
+      description: ""
+    - id: pair_631f305ecdf549e7a836bd00de82a023
+      name: entityAddress
+      value: Vendor Market
+      description: ""
+    - id: pair_b2415a8c07764f92b4afc41998b2fb99
+      name: entityWardId
+      value: "25"
+      description: ""
+    - id: pair_977ad2e81bc54863ad835b29ebe7f589
+      name: mobileNo
+      value: "0123456789"
+      description: ""
+    - id: pair_e03becf94ac64537a2733b88571c44bb
+      name: aadharNo
+      value: "012345678912"
+      description: ""
+    - id: pair_4b2e91548b2248378bc87b6622d0dee9
+      name: tradeLicenseNo
+      value: sadf5646
+      description: ""
+    - id: pair_ae0dd052625b4c3b9366a8f853e00b7f
+      name: holdingNo
+      value: asdf654
+      description: ""
+    - id: pair_7b9b97b817da45db9ffd8eee2995006f
+      name: gstNo
+      value: "32156546512"
+      description: ""
+    - id: pair_a149a0d0e606407c837bd94c70b4cbe0
+      name: longitude
+      value: "23.215"
+      description: ""
+    - id: pair_48933f9c230340929e1d3e771ceda1c1
+      name: latitude
+      value: "45.236"
+      description: ""
+    - id: pair_bddbaa49cac24ac3a155ef88e173f94e
+      name: displayArea
+      value: "25.62"
+      description: ""
+    - id: pair_e183a8f5621045729b0feca871813240
+      name: displayType
+      value: "5"
+      description: ""
+    - id: pair_f6771e24e0d94b3f955fb10f3dd44b39
+      name: installationLocation
+      value: "6"
+      description: ""
+    - id: pair_fe4262b793324817afe72fd9affc5f01
+      name: brandDisplayName
+      value: Something
+      description: ""
+    - id: pair_0817689cd34b41d08dc653cd00ef3e57
+      name: documents[0][id]
+      value: "1"
+      description: ""
+      disabled: true
+    - id: pair_12f06b5156a14444bfed4daaff0a49b2
+      name: documents[0][image]
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\win\Pictures\property-module.png
+      disabled: true
+    - id: pair_1bdf5d09ddf64a5dbf4578ab1708bc65
+      name: documents[0][relativeName]
+      value: Aadhar
+      description: ""
+      disabled: true
+    - id: pair_09c0b6e82993482b9893c5919c3ac203
+      name: id
+      value: "1"
+      description: ""
+      disabled: false
+    - id: pair_a312302a15a046a6a3107d56eae71783
+      name: documents[]
+      value: ""
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+  disabled: false
+metaSortKey: -1671000057846.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
